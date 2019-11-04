@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+}
+
+.links {
+  place-items: center;
+  display: flex;
+}
+
+li {
+  margin-right: 1.5em;
+  list-style-type: none;
+}
+
+.nav-link li a {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+.nav-link li a:hover {
+  text-decoration: underline;
+}
+
+.signin {
+  padding: 0.5em 0.8em;
+  background: #4684ed;
+  color: #ffffff !important;
+  border-radius: 0.125em;
+  text-decoration: none !important;
+}
+
+main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-search {
+  text-align: center;
+}
+
+.google-search-logo {
+  margin-bottom: 2em;
+}
+
+.google-search:hover {
+  box-shadow: #f0f0f0;
+}
+
+.search-box {
+  border: 1px solid #e0e0e0;
+  display: flex;
+  place-items: center;
+  padding: 0.75em 1.5em;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.search-box img {
+  width: 15px;
+}
+
+.search-box img:first-child {
+  margin-right: 1em;
+}
+
+.search-box div input {
+  font-size: 1em;
+}
+
+.search-box input {
+  outline: none;
+  border: none;
+}
+
+.search-buttons {
+  display: inline-block;
+  background: #f0f0f0;
+  font-size: 1.1em;
+  padding: 0.5em 1.2em !important;
+  border-radius: 5px;
+  margin: 1.5em 0.5em;
+  border: none;
+  color: #5e5e5e;
+}
+
+.search-buttons:hover {
+  cursor: pointer;
+  border: 1px solid #cccccc;
+}
+
+.language-links {
+  display: flex;
+  justify-content: center;
+}
+
+.language-links li a {
+  color: #1a0dab !important;
+  text-decoration: none;
+}
+
+.language-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-links ul {
+  display: flex;
+}
+
+.footer-links ul:first-child {
+  padding: 0px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  color: #5e5e5e;
+}
+
+footer > div {
+  padding: 15px 10px 15px 20px;
+  /* padding-left: 20px;
+  padding-right: 10px; */
+}
+
+.footer-div {
+  border: 0.5px solid #e0e0e0;
+}
+
+.footer-div:last-child {
+  border-top: none;
+}
